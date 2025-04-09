@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="icon" href="image.png" type="image/png">
+       <link rel="stylesheet" href="Task.css">
+
+</head>
+<body>
+    <div class="task-manager">
+        <h2>Task Manager</h2>
+        <div class="add-task">
+            <input type="text" id="newTask" placeholder="Add a new task...">
+            <button id="addTaskBtn">Add Task</button>
+        </div>
+        <div class="filter-buttons">
+            <button id="allBtn" class="active-filter">All</button>
+            <button id="activeBtn">Active</button>
+            <button id="completedBtn">Completed</button>
+        </div>
+        <ul class="task-list" id="taskList">
+            </ul>
+    </div>
+
+    <script src="Task.js"></script>
+</body>
+</html>
